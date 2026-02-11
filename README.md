@@ -1,4 +1,4 @@
-# Karabiner-Elements Rules for AK820 (ISO) on macOS — TR Layout Fix
+# Karabiner-Elements Rules for AJAZZ AK820 (ISO) on macOS — TR Layout Fix
 
 This repository contains **Karabiner-Elements Complex Modifications** designed specifically for the **AK820 keyboard (ISO variants)** on macOS, targeting the common character mapping issues experienced when using the **Turkish (TR) keyboard layout**.
 
