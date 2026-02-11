@@ -1,0 +1,64 @@
+{
+    "description": "AK820 Keyboard hyphen remaps (invert ISO - TR)",
+    "manipulators": [
+        {
+            "conditions": [
+                {
+                    "identifiers": [
+                        {
+                            "product_id": 65278,
+                            "vendor_id": 3141
+                        },
+                        {
+                            "product_id": 32777,
+                            "vendor_id": 3141
+                        }
+                    ],
+                    "type": "device_if"
+                }
+            ],
+            "from": {
+                "key_code": "hyphen",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "hyphen",
+                    "modifiers": ["any"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "identifiers": [
+                        {
+                            "product_id": 65278,
+                            "vendor_id": 3141
+                        },
+                        {
+                            "product_id": 32777,
+                            "vendor_id": 3141
+                        }
+                    ],
+                    "type": "device_if"
+                }
+            ],
+            "from": {
+                "key_code": "hyphen",
+                "modifiers": {
+                    "mandatory": [],
+                    "optional": []
+                }
+            },
+            "to": [
+                {
+                    "key_code": "hyphen",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}

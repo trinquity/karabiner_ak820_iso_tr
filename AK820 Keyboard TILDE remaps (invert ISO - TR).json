@@ -1,0 +1,84 @@
+{
+    "description": "AK820 Keyboard tilde remaps (invert ISO - TR)",
+    "manipulators": [
+        {
+            "conditions": [
+                {
+                    "identifiers": [
+                        {
+                            "product_id": 65278,
+                            "vendor_id": 3141
+                        },
+                        {
+                            "product_id": 32777,
+                            "vendor_id": 3141
+                        }
+                    ],
+                    "type": "device_if"
+                }
+            ],
+            "from": {
+                "key_code": "grave_accent_and_tilde",
+                "modifiers": { "mandatory": ["option"] }
+            },
+            "to": [
+                {
+                    "key_code": "non_us_backslash",
+                    "modifiers": ["option"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "identifiers": [
+                        {
+                            "product_id": 65278,
+                            "vendor_id": 3141
+                        },
+                        {
+                            "product_id": 32777,
+                            "vendor_id": 3141
+                        }
+                    ],
+                    "type": "device_if"
+                }
+            ],
+            "from": {
+                "key_code": "grave_accent_and_tilde",
+                "modifiers": { "mandatory": ["shift"] }
+            },
+            "to": [{ "key_code": "non_us_backslash" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "identifiers": [
+                        {
+                            "product_id": 65278,
+                            "vendor_id": 3141
+                        },
+                        {
+                            "product_id": 32777,
+                            "vendor_id": 3141
+                        }
+                    ],
+                    "type": "device_if"
+                }
+            ],
+            "from": {
+                "key_code": "grave_accent_and_tilde",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [
+                {
+                    "key_code": "non_us_backslash",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
