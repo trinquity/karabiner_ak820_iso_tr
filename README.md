@@ -2,7 +2,7 @@
 
 This repository contains **Karabiner-Elements Complex Modifications** designed specifically for the **AK820 keyboard (ISO variants)** on macOS, targeting the common character mapping issues experienced when using the **Turkish (TR) keyboard layout**.
 
-The rules are **device-scoped** (Vendor ID `3141`) and support multiple Product IDs (`65278`, `32777`) to cover different AK820 modes/firmware variants.
+The rules are **device-scoped** (Vendor ID `for Ajazz`) and support multiple Product IDs (`bluetooth` and `usb`) to cover different AK820 modes/firmware variants.
 
 ---
 
